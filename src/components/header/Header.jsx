@@ -17,7 +17,7 @@ const Header = () => {
             Hi There! <span className="mave" aria-labelledby="mave">👋</span>
           </h1>
           <h1 className="text-4xl text-white mt-6">
-            I'M <span className="text-[#cd5ff8] text-5xl ml-2">DILSHOD UMBAROV</span>
+            I'M <span className="text-[#cd5ff8] text-5xl ml-2">DILSHOD UMBAROVF</span>
           </h1>
           <h2 className="text-4xl text-[#cd5ff8] font-medium mt-10">
             <Typewriter
