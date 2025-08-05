@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <div className={`navbar p-5 w-full fixed top-0 z-50 transition-all duration-300 ${scrolled ? 'scrolled' : ''}`}>
       <div className="max-w-[1370px] mx-auto flex justify-between items-center">
-        <h1 className="text-[#cd5ff8] text-3xl">DU.Dev</h1>
+        <h1 className="text-[#cd5ff8] lg:text-3xl  text-[20px] ">DU.Dev</h1>
 
       </div>
     </div>

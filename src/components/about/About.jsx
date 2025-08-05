@@ -6,7 +6,7 @@ import banner from "../../assets/about.png";
 
 const About = () => {
   return (
-    <div className='bg-gray-950 mt-[140px] py-10'>
+    <div className='bg-gray-950 lg:mt-[140px] py-10  '>
       <div className='flex flex-col items-center max-w-[1400px] mx-auto px-4 md:flex-row md:justify-between mt-[140px]'>
         <div className='text-white md:w-1/2 flex flex-col'>
           <h1 className='text-4xl font-bold mb-4'>

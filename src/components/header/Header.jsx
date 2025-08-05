@@ -10,16 +10,16 @@ const Header = () => {
     <>
       <ConnectedDots className="" />
 
-      <div className="relative text-center z-10 flex items-center justify-center gap-[100px] max-w-[1550px] mx-auto mt-[50px]">
+      <div className="relative text-center z-10 lg:flex items-center justify-center gap-[100px] max-w-[1550px] mx-auto lg:mt-[50px] mt-[100px] p-[20px]">
 
         <div className='max-w-[550px] text-left'>
-          <h1 className="text-5xl font-bold text-white">
+          <h1 className="lg:text-5xl text-[36px] font-bold text-white">
             Hi There! <span className="mave" aria-labelledby="mave">👋</span>
           </h1>
-          <h1 className="text-4xl text-white mt-6">
-            I'M <span className="text-[#cd5ff8] text-5xl ml-2">DILSHOD UMBAROVF</span>
+          <h1 className="lg:text-4xl text-white mt-6 text-[30px]">
+            I'M <span className="text-[#cd5ff8] lg:text-5xl text-[36px] ml-2">DILSHOD UMBAROVF</span>
           </h1>
-          <h2 className="text-4xl text-[#cd5ff8] font-medium mt-10">
+          <h2 className="lg:text-4xl text-[#cd5ff8] font-medium mt-10 text-[24px] ">
             <Typewriter
               words={[
                 "Frontend Developer",
@@ -52,7 +52,7 @@ const Header = () => {
         </div>
 
         <div className=''>
-          <img className='w-[450px] md:w-[500px] lg:w-[600px]' src="https://my-portfolio-umber-psi-41.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="Banner" />
+          <img className='w-[450px] md:w-[500px] lg:w-[600px] hidden lg:block md:block' src="https://my-portfolio-umber-psi-41.vercel.app/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg" alt="Banner" />
         </div>
       </div>
     </>

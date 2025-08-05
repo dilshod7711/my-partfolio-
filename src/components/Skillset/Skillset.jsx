@@ -16,9 +16,9 @@ import React from 'react';
 
 const Skillset = () => {
     return (
-        <div className='bg-black py-10 py-[140px]'>
+        <div className='bg-black lg:py-10 lg:py-[140px]'>
             <h1 className="text-5xl font-bold text-white text-center">My <span className="text-[#cd5ff8]">Skillset</span></h1>
-            <div className='max-w-[1400px] mt-[140px] grid grid-cols-4 gap-10 mx-auto'>
+            <div className='max-w-[1400px] mt-[140px] grid lg:grid-cols-4 gap-10 mx-auto '>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  shadow-lg shadow-[#sd5ff8] rounded-lg">
                     <AiFillHtml5 className="w-[70px] h-[100px] text-white" />
                 </div>
@@ -43,7 +43,7 @@ const Skillset = () => {
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">
                     <SiTypescript className="w-[70px] h-[100px] text-white" />
                 </div>
-                <div className="flex gap-[200px] align-center text-center justify-center justify-items-center ml-[350px] mt-10">
+                <div className="lg:flex gap-[200px] align-center text-center justify-center justify-items-center lg:ml-[350px] mt-10">
                     <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">
                         <SiRedux className="w-[70px] h-[100px] text-white" />
                     </div>
@@ -53,8 +53,8 @@ const Skillset = () => {
                 </div>
             </div>
 
-            <h1 className="text-5xl font-bold text-center text-[#cd5ff8] mt-[140px]">Tools <span className="text-white">| use</span></h1>
-            <div className="flex align-center text-center justify-center justify-items-center mt-[100px] max-w-[1400px] mx-auto ">
+            <h1 className="lg:text-5xl text-[36px] font-bold text-center text-[#cd5ff8] mt-[140px]">Tools <span className="text-white">| use</span></h1>
+            <div className="grid lg:grid-cols-4 gap-[10px] align-center text-center justify-center justify-items-center p-[20px] lg:mt-[100px] max-w-[1400px] mx-auto ">
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg" ><SiVisualstudiocode className="w-[70px] h-[80px] text-white"/></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg"><SiVercel className="w-[70px] h-[80px] text-white" /></div>
                 <div className="border-solid border-2 border-[#cd5ff8] p-6 w-[250px] transform transition-transform duration-500 hover:scale-110  rounded-lg">  <GrWindows className=" w-[70px] h-[80px] text-white" /></div>

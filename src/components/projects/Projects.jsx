@@ -28,7 +28,7 @@ const Projects = () => {
           <p className=" text-2xl text-[#cd5ff8] ">Here are a few projects I've worked on recently.</p>
         </div>
         <br /><br />
-        <div className="grid grid-cols-3 gap-[50px]">
+        <div className="grid lg:grid-cols-3  gap-[50px]">
           <div className="max-w-[400px] bg-[ #3e05528d] text-white rounded-lg shadow-md p-4  shadow-[#cd5ff8] hover:shadow-[#cd5ff8] transform transition-transform duration-500 hover:scale-105">
             <img src={ebay} alt="Ebay Project" className="w-[400px] object-cover h-[200px] " />
 
