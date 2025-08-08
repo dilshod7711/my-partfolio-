@@ -154,12 +154,12 @@ const Contact = () => {
         <div className="flex flex-col items-center text-center">
           <div className="w-12 h-12 bg-[#cd5ff8] rounded-full flex items-center justify-center mb-2 text-xl">📧</div>
           <p className="text-sm text-gray-400">Email</p>
-          <p className="text-[#cd5ff8] break-all">dilshodumbarov707@gmail.com</p>
+          <a href="mailto:dilshodumbarov707@gmail.com" className="text-[#cd5ff8] break-all">dilshodumbarov707@gmail.com</a>
         </div>
         <div className="flex flex-col items-center text-center">
           <div className="w-12 h-12 bg-[#cd5ff8] rounded-full flex items-center justify-center mb-2 text-xl">📱</div>
           <p className="text-sm text-gray-400">Phone</p>
-          <p className="text-[#cd5ff8]">+998 90 447 19 07</p>
+          <a href="tel:+998904471907" className="text-[#cd5ff8]">+998 90 447 19 07</a>
         </div>
         <div className="flex flex-col items-center text-center">
           <div className="w-12 h-12 bg-[#cd5ff8] rounded-full flex items-center justify-center mb-2 text-xl">📍</div>
